@@ -1,0 +1,1940 @@
+{
+  "wanInfo": {
+    "model": "RT-AC88U",
+    "daapd_friendly_name": "RT-AC88U-2F98",
+    "0:macaddr": "34:97:F6:20:00:00",
+    "ddns_hostname_x": "domain.asuscomm.com",
+    "wanlink-status": 1,
+    "wanlink-statusstr": "Connected",
+    "wanlink-ipaddr": "123.173.254.254",
+    "wanlink-dns": "114.114.114.114 114.114.115.115"
+  },
+  "netRate": {
+    "INTERNET_rx": "0x4471bf7c",
+    "INTERNET_tx": "0x2b7f2fd0",
+    "WIRELESS0_rx": "0x1cacb2",
+    "WIRELESS0_tx": "0x67977e5",
+    "WIRELESS1_rx": "0x0",
+    "WIRELESS1_tx": "0x3a7e62f8",
+    "int_rx": 1148305276,
+    "int_tx": 729755600,
+    "wl2g_rx": 1879218,
+    "wl2g_tx": 108623845,
+    "wl5g_rx": 0,
+    "wl5g_tx": 981361400
+  },
+  "cpuMemInfo": {
+    "cpu_usage": {
+      "cpu1_total": 1940035,
+      "cpu1_usage": 35062,
+      "cpu2_total": 1939998,
+      "cpu2_usage": 29906
+    },
+    "memory_usage": {
+      "mem_total": 515296,
+      "mem_free": 377288,
+      "mem_used": 138008
+    }
+  },
+  "clients": {
+    "macList": [ "0C:51:01:05:CD:55", "5C:CF:7F:3A:4D:E2", "84:A1:34:20:4C:65", "94:65:2D:25:CC:95", "A0:20:A6:01:41:CF", "30:9C:23:02:40:73", "30:9C:23:1D:2A:0B", "C0:EE:FB:EA:4F:4A", "60:91:F3:20:30:1A", "64:B0:A6:AB:FD:4D", "44:04:44:75:6F:63", "88:6A:B1:66:8B:2A" ],
+    "clientList": {
+      "0C:51:01:05:CD:55": {
+        "name": "iPhone",
+        "ip": "192.168.1.223",
+        "mac": "0C:51:01:05:CD:55",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-69"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "5C:CF:7F:3A:4D:E2": {
+        "name": "晓敏のRGB模块",
+        "ip": "192.168.1.183",
+        "mac": "5C:CF:7F:3A:4D:E2",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-63"
+        },
+        "speed": null,
+        "deviceType": 11,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_repeater.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "84:A1:34:20:4C:65": {
+        "name": "虎奶のiPhone",
+        "ip": "192.168.1.252",
+        "mac": "84:A1:34:20:4C:65",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-64"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "94:65:2D:25:CC:95": {
+        "name": "老王の一加",
+        "ip": "192.168.1.189",
+        "mac": "94:65:2D:25:CC:95",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "A0:20:A6:01:41:CF": {
+        "name": "老王のRGB模块",
+        "ip": "192.168.1.95",
+        "mac": "A0:20:A6:01:41:CF",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-54"
+        },
+        "speed": null,
+        "deviceType": 11,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_repeater.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "30:9C:23:02:40:73": {
+        "name": "老王の主机",
+        "ip": "192.168.1.2",
+        "mac": "30:9C:23:02:40:73",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 6,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_windows.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "30:9C:23:1D:2A:0B": {
+        "name": "晓敏の主机",
+        "ip": "192.168.1.110",
+        "mac": "30:9C:23:1D:2A:0B",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 6,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_windows.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "C0:EE:FB:EA:4F:4A": {
+        "name": "大师明の一加",
+        "ip": "192.168.1.140",
+        "mac": "C0:EE:FB:EA:4F:4A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-78"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "60:91:F3:20:30:1A": {
+        "name": "晓敏のvivo",
+        "ip": "192.168.1.21",
+        "mac": "60:91:F3:20:30:1A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-72"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "64:B0:A6:AB:FD:4D": {
+        "name": "成宇のiPhone",
+        "ip": "192.168.1.72",
+        "mac": "64:B0:A6:AB:FD:4D",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-58"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "44:04:44:75:6F:63": {
+        "name": "android-503b35800c617098",
+        "ip": "192.168.1.187",
+        "mac": "44:04:44:75:6F:63",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-70"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      "88:6A:B1:66:8B:2A": {
+        "name": "晓敏のvivoX7",
+        "ip": "192.168.1.237",
+        "mac": "88:6A:B1:66:8B:2A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-49"
+        },
+        "speed": null,
+        "deviceType": 13,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_unknown_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      }
+    },
+    "LAN": [
+      {
+        "name": "老王の一加",
+        "ip": "192.168.1.189",
+        "mac": "94:65:2D:25:CC:95",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "老王の主机",
+        "ip": "192.168.1.2",
+        "mac": "30:9C:23:02:40:73",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 6,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_windows.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏の主机",
+        "ip": "192.168.1.110",
+        "mac": "30:9C:23:1D:2A:0B",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 6,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_windows.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      }
+    ],
+    "WL5G": [
+      {
+        "name": "iPhone",
+        "ip": "192.168.1.223",
+        "mac": "0C:51:01:05:CD:55",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-69"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "虎奶のiPhone",
+        "ip": "192.168.1.252",
+        "mac": "84:A1:34:20:4C:65",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-64"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "大师明の一加",
+        "ip": "192.168.1.140",
+        "mac": "C0:EE:FB:EA:4F:4A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-78"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏のvivo",
+        "ip": "192.168.1.21",
+        "mac": "60:91:F3:20:30:1A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-72"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "成宇のiPhone",
+        "ip": "192.168.1.72",
+        "mac": "64:B0:A6:AB:FD:4D",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-58"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "android-503b35800c617098",
+        "ip": "192.168.1.187",
+        "mac": "44:04:44:75:6F:63",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-70"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      }
+    ],
+    "WL2G": [
+      {
+        "name": "晓敏のRGB模块",
+        "ip": "192.168.1.183",
+        "mac": "5C:CF:7F:3A:4D:E2",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-63"
+        },
+        "speed": null,
+        "deviceType": 11,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_repeater.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "老王のRGB模块",
+        "ip": "192.168.1.95",
+        "mac": "A0:20:A6:01:41:CF",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-54"
+        },
+        "speed": null,
+        "deviceType": 11,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_repeater.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏のvivoX7",
+        "ip": "192.168.1.237",
+        "mac": "88:6A:B1:66:8B:2A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-49"
+        },
+        "speed": null,
+        "deviceType": 13,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_unknown_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      }
+    ],
+    "clients": [
+      {
+        "name": "iPhone",
+        "ip": "192.168.1.223",
+        "mac": "0C:51:01:05:CD:55",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-69"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏のRGB模块",
+        "ip": "192.168.1.183",
+        "mac": "5C:CF:7F:3A:4D:E2",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-63"
+        },
+        "speed": null,
+        "deviceType": 11,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_repeater.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "虎奶のiPhone",
+        "ip": "192.168.1.252",
+        "mac": "84:A1:34:20:4C:65",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-64"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "老王の一加",
+        "ip": "192.168.1.189",
+        "mac": "94:65:2D:25:CC:95",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "老王のRGB模块",
+        "ip": "192.168.1.95",
+        "mac": "A0:20:A6:01:41:CF",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-54"
+        },
+        "speed": null,
+        "deviceType": 11,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_repeater.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "老王の主机",
+        "ip": "192.168.1.2",
+        "mac": "30:9C:23:02:40:73",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 6,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_windows.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏の主机",
+        "ip": "192.168.1.110",
+        "mac": "30:9C:23:1D:2A:0B",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": false,
+        "netType": 0,
+        "wlanInfo": null,
+        "speed": null,
+        "deviceType": 6,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_windows.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "大师明の一加",
+        "ip": "192.168.1.140",
+        "mac": "C0:EE:FB:EA:4F:4A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-78"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏のvivo",
+        "ip": "192.168.1.21",
+        "mac": "60:91:F3:20:30:1A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-72"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "成宇のiPhone",
+        "ip": "192.168.1.72",
+        "mac": "64:B0:A6:AB:FD:4D",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-58"
+        },
+        "speed": null,
+        "deviceType": 3,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/device_phone.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "android-503b35800c617098",
+        "ip": "192.168.1.187",
+        "mac": "44:04:44:75:6F:63",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 2,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-70"
+        },
+        "speed": null,
+        "deviceType": 7,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_5g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_android.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      },
+      {
+        "name": "晓敏のvivoX7",
+        "ip": "192.168.1.237",
+        "mac": "88:6A:B1:66:8B:2A",
+        "from": "networkmapd",
+        "isOnline": true,
+        "isWL": true,
+        "netType": 1,
+        "wlanInfo": {
+          "isWL": "Yes",
+          "rssi": "-49"
+        },
+        "speed": null,
+        "deviceType": 13,
+        "isBan": false,
+        "netTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/icon_signal_24g.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devTypeImage": {
+          "UriSource": "ms-appx:///Assets/icon/device/icon_unknown_wired.png",
+          "DecodePixelWidth": 0,
+          "DecodePixelHeight": 0,
+          "CreateOptions": 0,
+          "DecodePixelType": 0,
+          "AutoPlay": true,
+          "IsAnimatedBitmap": false,
+          "IsPlaying": false,
+          "PixelHeight": 0,
+          "PixelWidth": 0,
+          "Dispatcher": {
+            "HasThreadAccess": true,
+            "CurrentPriority": 0
+          }
+        },
+        "devBanImage": null,
+        "speedVisibility": 1
+      }
+    ],
+    "wl5g": {
+      "44:04:44:75:6F:63": {
+        "isWL": "Yes",
+        "rssi": "-70"
+      },
+      "64:B0:A6:AB:FD:4D": {
+        "isWL": "Yes",
+        "rssi": "-58"
+      },
+      "0C:51:01:05:CD:55": {
+        "isWL": "Yes",
+        "rssi": "-69"
+      },
+      "60:91:F3:20:30:1A": {
+        "isWL": "Yes",
+        "rssi": "-72"
+      },
+      "C0:EE:FB:EA:4F:4A": {
+        "isWL": "Yes",
+        "rssi": "-78"
+      },
+      "84:A1:34:20:4C:65": {
+        "isWL": "Yes",
+        "rssi": "-64"
+      }
+    },
+    "wl2g": {
+      "88:6A:B1:66:8B:2A": {
+        "isWL": "Yes",
+        "rssi": "-49"
+      },
+      "5C:CF:7F:3A:4D:E2": {
+        "isWL": "Yes",
+        "rssi": "-63"
+      },
+      "A0:20:A6:01:41:CF": {
+        "isWL": "Yes",
+        "rssi": "-54"
+      }
+    }
+  },
+  "devRate": {
+    "5C:CF:7F:3A:4D:E2": {
+      "rx": 11081,
+      "tx": 5627
+    },
+    "0C:51:01:05:CD:55": {
+      "rx": 11043299,
+      "tx": 325349271
+    },
+    "84:A1:34:20:4C:65": {
+      "rx": 597009061,
+      "tx": 162076896
+    },
+    "94:65:2D:25:CC:95": {
+      "rx": 0,
+      "tx": 0
+    },
+    "A0:20:A6:01:41:CF": {
+      "rx": 78616,
+      "tx": 37577
+    },
+    "30:9C:23:02:40:73": {
+      "rx": 4876884,
+      "tx": 21620801
+    },
+    "30:9C:23:1D:2A:0B": {
+      "rx": 2316500,
+      "tx": 44023548
+    },
+    "C0:EE:FB:EA:4F:4A": {
+      "rx": 12592840,
+      "tx": 177314931
+    },
+    "60:91:F3:20:30:1A": {
+      "rx": 2483275,
+      "tx": 11611280
+    },
+    "64:B0:A6:AB:FD:4D": {
+      "rx": 54371014,
+      "tx": 202577878
+    },
+    "44:04:44:75:6F:63": {
+      "rx": 3207414,
+      "tx": 5526915
+    },
+    "88:6A:B1:66:8B:2A": {
+      "rx": 3845730,
+      "tx": 99417464
+    }
+  },
+  "wlanInfo": {
+    "wl0_radio": 1,
+    "wl0_ssid": "wifi320_1",
+    "wl0_wpa_psk": "www.123123",
+    "wl1_radio": 1,
+    "wl1_ssid": "wifi320_5G",
+    "wl1_wpa_psk": "www.123123",
+    "wl0_enable": true,
+    "wl1_enable": true
+  },
+  "netSpeed": {
+    "downloadSpeed_wan": 376.5399827694236,
+    "uploadSpeed_wan": 14.44284539473684,
+    "downloadSpeed_wl2g": 0.19824953007518795,
+    "uploadSpeed_wl2g": 0.08713189223057644,
+    "downloadSpeed_wl5g": 0,
+    "uploadSpeed_wl5g": 156.22454573934837,
+    "downloadSpeed_wan_str": "377 KB/s",
+    "uploadSpeed_wan_str": "15 KB/s",
+    "downloadSpeed_wl2g_str": "1 KB/s",
+    "uploadSpeed_wl2g_str": "1 KB/s",
+    "downloadSpeed_wl5g_str": "0 KB/s",
+    "uploadSpeed_wl5g_str": "157 KB/s"
+  },
+  "banList": [ "50:8F:4C:4D:3E:0E44:04:44:75:6F:63" ]
+}

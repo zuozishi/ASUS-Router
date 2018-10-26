@@ -1,0 +1,7 @@
+﻿Update Log (2018.05.19):
+1. Add white list function;
+2. Add bandwidth limit function;
+3. People task bar add classic theme (open in more panel);
+4. Add share Wi-Fi with QR code;
+5. Add user data file share (user data file include device customer data);
+6. App icon changed.

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Asus Router</value>
+  </data>
+  <data name="BandWidth.Text" xml:space="preserve">
+    <value>Bandwidth Limit</value>
+  </data>
+  <data name="ClientDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ClientDialog.SecondaryButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ClientStatus.Text" xml:space="preserve">
+    <value>Client Status</value>
+  </data>
+  <data name="CopyComplete" xml:space="preserve">
+    <value>Copy Complete.</value>
+  </data>
+  <data name="DeviceName.Text" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="DeviceType.Text" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="EditMenu.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ExportData.Text" xml:space="preserve">
+    <value>Export Data</value>
+  </data>
+  <data name="ExportDataError" xml:space="preserve">
+    <value>Export Data Failed.</value>
+  </data>
+  <data name="ExportDataSuccess" xml:space="preserve">
+    <value>Export Data Success.</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="HostError" xml:space="preserve">
+    <value>Host Error</value>
+  </data>
+  <data name="Info.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="InfoDDNS.Text" xml:space="preserve">
+    <value>DDNS</value>
+  </data>
+  <data name="InfoLanIP.Text" xml:space="preserve">
+    <value>LAN IP</value>
+  </data>
+  <data name="InfoMAC.Text" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="InfoModel.Text" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="InfoPublicNetIP.Text" xml:space="preserve">
+    <value>Public Network IP</value>
+  </data>
+  <data name="InfoStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InternetAccess.Text" xml:space="preserve">
+    <value>Allow/Ban Internet Access</value>
+  </data>
+  <data name="LAN" xml:space="preserve">
+    <value>LAN</value>
+  </data>
+  <data name="LanDevNum.Text" xml:space="preserve">
+    <value>LAN</value>
+  </data>
+  <data name="LoadData.Text" xml:space="preserve">
+    <value>Load Data</value>
+  </data>
+  <data name="LoadDataError" xml:space="preserve">
+    <value>Load Data Failed.</value>
+  </data>
+  <data name="LoadDataSuccess" xml:space="preserve">
+    <value>Load Data Success.</value>
+  </data>
+  <data name="LoginFailure" xml:space="preserve">
+    <value>LoginIn Failed.</value>
+  </data>
+  <data name="LoginIn.Content" xml:space="preserve">
+    <value>Login In</value>
+  </data>
+  <data name="LoginOut.Text" xml:space="preserve">
+    <value>Login Out</value>
+  </data>
+  <data name="MemStatus.Text" xml:space="preserve">
+    <value>Mem</value>
+  </data>
+  <data name="NetStatus.Text" xml:space="preserve">
+    <value>Internet Status: </value>
+  </data>
+  <data name="NotificationCancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NotificationOK.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NotInWhiteList" xml:space="preserve">
+    <value>Not In WhiteList</value>
+  </data>
+  <data name="NullPassword" xml:space="preserve">
+    <value>Please Enter Password.</value>
+  </data>
+  <data name="NullSSID" xml:space="preserve">
+    <value>Please Enter Wireless Network Name.</value>
+  </data>
+  <data name="NullUserName" xml:space="preserve">
+    <value>Please Enter UserName.</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PublicNetIP.Text" xml:space="preserve">
+    <value>Public Network IP：</value>
+  </data>
+  <data name="Reboot.Text" xml:space="preserve">
+    <value>Reboot</value>
+  </data>
+  <data name="RebootRouter.Text" xml:space="preserve">
+    <value>Reboot this router, continue？</value>
+  </data>
+  <data name="RemoveFromWhiteList" xml:space="preserve">
+    <value>Remove From WhiteList</value>
+  </data>
+  <data name="RouterModel.Text" xml:space="preserve">
+    <value>Router Model: </value>
+  </data>
+  <data name="RouterRebootError" xml:space="preserve">
+    <value>Router reboot failed.</value>
+  </data>
+  <data name="RouterRebootSuccess" xml:space="preserve">
+    <value>Router rebooting ...</value>
+  </data>
+  <data name="SysStatus.Text" xml:space="preserve">
+    <value>System Status</value>
+  </data>
+  <data name="TopBtn1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="TopBtn2.Text" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="TopBtn3.Text" xml:space="preserve">
+    <value>Wireless</value>
+  </data>
+  <data name="TopBtn4.Text" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="UserName.Text" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="WiFiSetError" xml:space="preserve">
+    <value>Wi-Fi Setting Save Failed.</value>
+  </data>
+  <data name="WiFiSetSuccess" xml:space="preserve">
+    <value>Wi-Fi Setting Saved.</value>
+  </data>
+  <data name="WiFiSettingChanged.Text" xml:space="preserve">
+    <value>Changing wireless settings will temporarily interrupt the wireless network. Do you want to continue?</value>
+  </data>
+  <data name="WirelessDevNum.Text" xml:space="preserve">
+    <value>Wireless</value>
+  </data>
+  <data name="WirelessNetName.Text" xml:space="preserve">
+    <value>Wireless Network Name</value>
+  </data>
+  <data name="WirelessNetPwd.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="WirelessNetQr.Text" xml:space="preserve">
+    <value>Share Wi-Fi</value>
+  </data>
+  <data name="WirelessNetSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="DNIWL.Text" xml:space="preserve">
+    <value>Devices not in white list and access internet.</value>
+  </data>
+  <data name="BlackDevToastText.Text" xml:space="preserve">
+    <value>Not White List Device Connected Toast</value>
+  </data>
+  <data name="AddToWhiteList" xml:space="preserve">
+    <value>Add To WhiteList</value>
+  </data>
+  <data name="AddToWhiteListTextBlock.Text" xml:space="preserve">
+    <value>Add To White List</value>
+  </data>
+  <data name="bandLimitText.Text" xml:space="preserve">
+    <value>Devices bandwidth has limited.</value>
+  </data>
+  <data name="TopBtn1Pivot.Header" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="TopBtn2Pivot.Header" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="TopBtn3Pivot.Header" xml:space="preserve">
+    <value>Wireless</value>
+  </data>
+  <data name="TopBtn4Pivot.Header" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="ArdFileDisplay" xml:space="preserve">
+    <value>Asus Router Application User Data File</value>
+  </data>
+  <data name="ShareData.Text" xml:space="preserve">
+    <value>Share Data</value>
+  </data>
+  <data name="UpdateLogFile" xml:space="preserve">
+    <value>ms-appx:///Assets/rtf/update_en.txt</value>
+  </data>
+  <data name="UpdateLog.Text" xml:space="preserve">
+    <value>Show Update Log</value>
+  </data>
+</root>
