@@ -25,10 +25,7 @@ namespace AsusRouterApp.Class
                 var file=await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Assets/images/router.png"));
                 contact.SourceDisplayPicture= RandomAccessStreamReference.CreateFromFile(file);
                 contact.Thumbnail = RandomAccessStreamReference.CreateFromFile(file);
-                string appid = "260916E2A81CC.ASUSRouter_p6s61p53z2df2!App";
-                string publisher = Edi.UWP.Helpers.Utils.GetAppPublisher();
-                if (publisher.Contains("wwb12"))
-                    appid = "260916E2A81CC.ASUSRouter_4zn4w568hbk6y!App";
+                string appid = Windows.ApplicationModel.Package.Current.Id.FamilyName+"!App";
                 contact.ProviderProperties.Add("ContactPanelAppID", appid);
                 await list.SaveContactAsync(contact);
                 var annotation = new ContactAnnotation();

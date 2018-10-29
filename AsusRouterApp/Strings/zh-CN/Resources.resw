@@ -154,10 +154,10 @@
     <value>数据导出成功</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
-    <value>主机</value>
+    <value>IP</value>
   </data>
   <data name="HostError" xml:space="preserve">
-    <value>主机名错误</value>
+    <value>IP地址错误</value>
   </data>
   <data name="Info.Text" xml:space="preserve">
     <value>信息</value>
@@ -335,5 +335,8 @@
   </data>
   <data name="UpdateLog.Text" xml:space="preserve">
     <value>更新日志</value>
+  </data>
+  <data name="Protocol.Text" xml:space="preserve">
+    <value>协议</value>
   </data>
 </root>

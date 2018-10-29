@@ -154,10 +154,10 @@
     <value>Export Data Success.</value>
   </data>
   <data name="Host.Text" xml:space="preserve">
-    <value>Host</value>
+    <value>IP</value>
   </data>
   <data name="HostError" xml:space="preserve">
-    <value>Host Error</value>
+    <value>IP Address Error</value>
   </data>
   <data name="Info.Text" xml:space="preserve">
     <value>Info</value>
@@ -335,5 +335,8 @@
   </data>
   <data name="UpdateLog.Text" xml:space="preserve">
     <value>Show Update Log</value>
+  </data>
+  <data name="Protocol.Text" xml:space="preserve">
+    <value>Protocol</value>
   </data>
 </root>

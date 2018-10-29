@@ -26,10 +26,10 @@ namespace AsusRouterApp.Class
                     Setting.SetSetting("host", value);
                 }
             }
-            public static string Login = Host + "/login.cgi";
-            public static string CpuMemInfo = Host + "/cpu_ram_status.xml";
-            public static string AppGet = Host + "/appGet.cgi";
-            public static string ApplyApp = Host + "/applyapp.cgi";
+            public static string Login => Host + "/login.cgi";
+            public static string CpuMemInfo => Host + "/cpu_ram_status.xml";
+            public static string AppGet => Host + "/appGet.cgi";
+            public static string ApplyApp => Host + "/applyapp.cgi";
         }
 
         public static bool HasLogin()

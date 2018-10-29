@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsusRouterBackgroundTask", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FE922E3-A5A5-4EF5-8562-850DC74F9352}"
 	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-yaml.txt = azure-pipelines-yaml.txt
 		README.md = README.md
 	EndProjectSection
 EndProject

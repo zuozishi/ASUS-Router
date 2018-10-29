@@ -2,9 +2,12 @@
 using Microsoft.Toolkit.Uwp.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Enumeration;
 using Windows.Devices.Enumeration.Pnp;
@@ -30,15 +33,19 @@ namespace AsusRouterApp
     /// </summary>
     public sealed partial class LoginPage : Page
     {
-        public string host { get; set; } = "http://";
+        public bool Protocol_Http { get; set; } = true;
+
+        public bool Protocol_Https { get; set; } = false;
+
+        public string host { get; set; } = "";
 
         public string user { get; set; } = "";
 
         public string pwd { get; set; } = "";
 
-        public LoginPageBrush pageBrush;
+        public ObservableCollection<string> gateways = new ObservableCollection<string>();
 
-        PnpObjectWatcher deviceWatcher;
+        public LoginPageBrush pageBrush;
 
         public LoginPage()
         {
@@ -49,15 +56,22 @@ namespace AsusRouterApp
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            deviceWatcher =PnpObject.CreateWatcher(PnpObjectType.DeviceInterface, new string[] { "System.Devices.DeviceInstanceId", "System.Devices.DeviceManufacturer", "System.ItemNameDisplay" });
-            deviceWatcher.Added += DeviceWatcher_Added;
-            deviceWatcher.Start();
-        }
-
-        private void DeviceWatcher_Added(PnpObjectWatcher sender, PnpObject args)
-        {
-            var asdf=args.Properties.ToArray();
-            System.Diagnostics.Debug.WriteLine("ItemNameDisplay:" + (string)args.Properties["System.ItemNameDisplay"]);
+            if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.UI.Xaml.Controls.AppBarElementContainer"))
+            {
+                var networks = NetworkInterface.GetAllNetworkInterfaces();
+                foreach (var network in networks)
+                {
+                    var properties = network.GetIPProperties();
+                    if (properties != null && properties.GatewayAddresses != null)
+                    {
+                        foreach (var gateway in properties.GatewayAddresses)
+                        {
+                            gateways.Add(gateway.Address.ToString());
+                        }
+                    }
+                }
+                if (gateways.Count > 0) host = gateways[0];
+            }
         }
 
         private void Dispatcher_AcceleratorKeyActivated(CoreDispatcher sender, AcceleratorKeyEventArgs args)
@@ -122,7 +136,14 @@ namespace AsusRouterApp
 
         private async void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (!host.Contains("http"))
+            string url = "";
+            if (Protocol_Http)
+                url += "http://";
+            else
+                url += "https://";
+            url += host;
+            var ipres = Uri.TryCreate(url,UriKind.Absolute,out Uri uri);
+            if(!ipres)
             {
                 notificationError.Show(Utils.AppResources.GetString("HostError"));
                 return;
@@ -137,7 +158,7 @@ namespace AsusRouterApp
                 notificationError.Show(Utils.AppResources.GetString("NullPassword"));
                 return;
             }
-            RouterAPI.Url.Host = host;
+            RouterAPI.Url.Host = url;
             var loginRes = await RouterAPI.Login(user,pwd);
             if (loginRes)
                 this.Frame.Navigate(typeof(MainPage), null);

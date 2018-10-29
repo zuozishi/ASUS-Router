@@ -15,18 +15,26 @@
                 <RowDefinition Height="60"/>
                 <RowDefinition Height="60"/>
                 <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock x:Uid="Host" Foreground="White" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <TextBox Text="{x:Bind host,Mode=TwoWay}" Foreground="White" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
-            <TextBlock x:Uid="UserName" Foreground="White" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <TextBox Text="{x:Bind user,Mode=TwoWay}" Foreground="White" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
-            <TextBlock x:Uid="Password" Foreground="White" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <PasswordBox Password="{x:Bind pwd,Mode=TwoWay}" Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
-            <Button x:Uid="LoginIn" Click="LoginBtn_Click" Background="{x:Bind pageBrush.btnGrid}" Foreground="White" Margin="10" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <TextBlock x:Uid="Protocol" Foreground="White" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <Grid Grid.Row="0" Grid.Column="1">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Foreground="White" Tag="Protocol" IsChecked="{x:Bind Protocol_Http,Mode=TwoWay}" Margin="0,0,-30,0" Content="HTTP"/>
+                    <RadioButton Foreground="White" Tag="Protocol" IsChecked="{x:Bind Protocol_Https,Mode=TwoWay}" Content="HTTPS"/>
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Uid="Host" Foreground="White" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <AutoSuggestBox ItemsSource="{x:Bind gateways}" Text="{x:Bind host,Mode=TwoWay}" Foreground="White" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+            <TextBlock x:Uid="UserName" Foreground="White" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox Text="{x:Bind user,Mode=TwoWay}" Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+            <TextBlock x:Uid="Password" Foreground="White" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <PasswordBox Password="{x:Bind pwd,Mode=TwoWay}" Foreground="White" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+            <Button x:Uid="LoginIn" Click="LoginBtn_Click" Background="{x:Bind pageBrush.btnGrid}" Foreground="White" Margin="10" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </Grid>
         <controls:InAppNotification x:Name="notificationError" Background="#FFFF5656" BorderBrush="{ThemeResource MainThemeColor}"/>
     </Grid>
