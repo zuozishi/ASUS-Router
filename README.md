@@ -1,5 +1,7 @@
 # ASUS-Router
-华硕路由器客户端UWP
+华硕路由器UWP客户端
+
+[![Build status](https://dev.azure.com/wwb123123/ASUS%20Router/_apis/build/status/ASUS%20Router-Universal%20Windows%20Platform-CI)](https://dev.azure.com/wwb123123/ASUS%20Router/_build/latest?definitionId=12)
 
 更新日志（2018.10.27）：
 1. 人脉栏经典主题修复；
