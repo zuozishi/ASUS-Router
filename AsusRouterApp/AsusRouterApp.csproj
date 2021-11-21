@@ -287,45 +287,44 @@
       <Version>2017.11.0.1000</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
-      <Version>1.10.0</Version>
+      <Version>1.13.2</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.1.9</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Toolkit">
-      <Version>4.0.0</Version>
+      <Version>5.1.0</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications">
-      <Version>4.0.0</Version>
+      <Version>5.1.0</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Animations">
-      <Version>4.0.0</Version>
+      <Version>5.1.0</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Controls">
-      <Version>4.0.0</Version>
+      <Version>5.1.0</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>11.0.2</Version>
+      <Version>12.0.1</Version>
     </PackageReference>
     <PackageReference Include="PCLWebUtility">
       <Version>1.0.3</Version>
     </PackageReference>
     <PackageReference Include="QRCoder">
-      <Version>1.3.3</Version>
+      <Version>1.3.5</Version>
     </PackageReference>
     <PackageReference Include="System.ValueTuple">
       <Version>4.5.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AsusRouterBackgroundTask\AsusRouterBackgroundTask.csproj">
-      <Project>{aeba7c07-aaa1-42c5-a130-7c434efdd256}</Project>
-      <Name>AsusRouterBackgroundTask</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AsusRouterLib\AsusRouterLib.csproj">
       <Project>{da99db2e-6f82-46b2-bcdb-8ca0e90b4af7}</Project>
       <Name>AsusRouterLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -66,7 +66,7 @@ namespace AsusRouterApp
                     {
                         foreach (var gateway in properties.GatewayAddresses)
                         {
-                            gateways.Add(gateway.Address.ToString());
+                            if(!gateway.Address.IsIPv6LinkLocal)gateways.Add(gateway.Address.ToString());
                         }
                     }
                 }

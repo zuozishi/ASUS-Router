@@ -393,15 +393,15 @@
                                 <Image Width="30" Height="30" Source="{Binding netTypeImage}"/>
                             </StackPanel>
                         </Grid>
-                        <StackPanel Grid.Row="1" Orientation="Horizontal">
-                            <TextBlock Foreground="Black" Text="{Binding ip}"/>
+                        <StackPanel Grid.Row="1" Margin="5,0,0,0" Orientation="Horizontal">
+                            <TextBlock Foreground="{ThemeResource TextColor}" Text="{Binding ip}"/>
                             <TextBlock Visibility="{Binding speedVisibility}">
                             <Run Text=" "/>
-                            <Run Foreground="Black" Text="&#xE898;" FontFamily="Segoe MDL2 Assets"/>
-                            <Run Foreground="Black" Text="{Binding speed.downloadSpeed_str,Mode=OneWay}" FontWeight="Bold"/>
+                            <Run Foreground="{ThemeResource TextColor}" Text="&#xE898;" FontFamily="Segoe MDL2 Assets"/>
+                            <Run Foreground="{ThemeResource TextColor}" Text="{Binding speed.downloadSpeed_str,Mode=OneWay}" FontWeight="Bold"/>
                             <Run Text=" "/>
-                            <Run Foreground="Black" Text="&#xE896;" FontFamily="Segoe MDL2 Assets"/>
-                            <Run Foreground="Black" Text="{Binding speed.uploadSpeed_str,Mode=OneWay}" FontWeight="Bold"/>
+                            <Run Foreground="{ThemeResource TextColor}" Text="&#xE896;" FontFamily="Segoe MDL2 Assets"/>
+                            <Run Foreground="{ThemeResource TextColor}" Text="{Binding speed.uploadSpeed_str,Mode=OneWay}" FontWeight="Bold"/>
                             <Run Text=" "/>
                             </TextBlock>
                         </StackPanel>
@@ -539,7 +539,7 @@
                                 <RowDefinition Height="auto"/>
                                 <RowDefinition Height="auto"/>
                             </Grid.RowDefinitions>
-                            <Grid x:Name="alertWLGrid" Visibility="Collapsed" Background="{x:Bind brushMainPage.alertGrid}" Height="45" Margin="15">
+                            <Grid x:Name="alertWLGrid" Visibility="Collapsed" Background="{x:Bind brushMainPage.alertGrid}" Height="45" Margin="15,15,15,0">
                                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{ThemeResource TextColor}">
                                     <Run Text="&#xE7EF;" FontFamily="Segoe MDL2 Assets"/>
                                     <Run Text=" "/>
@@ -563,7 +563,7 @@
                             </Grid>
                             <Button x:Name="grid_waninfo" Grid.Row="2" Click="WANInfoBtn_Click" Background="{x:Bind brushMainPage.wanInfoGrid,Mode=TwoWay}" Style="{StaticResource ButtonStyle1}" Margin="20" Padding="20" VerticalAlignment="Top" HorizontalAlignment="Stretch">
                                 <StackPanel Margin="10">
-                                    <TextBlock Margin="5" Foreground="{ThemeResource TextColor}" HorizontalAlignment="Center">
+                                    <TextBlock Visibility="Collapsed" Margin="5" Foreground="{ThemeResource TextColor}" HorizontalAlignment="Center">
                                     <Run x:Uid="RouterModel"/>
                                     <Run x:Name="textBlock_model"/>
                                     </TextBlock>
